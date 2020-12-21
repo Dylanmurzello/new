@@ -9,9 +9,9 @@ from sys import exit
 
 
 
-reddit = praw.Reddit(client_id="KhMgGw2AitoCdQ",
-                     client_secret="Wa1TyNRwp0gZnX6rN5S9XSh-n9ABug",
-                     password="Current_Guarantee650",
+reddit = praw.Reddit(client_id="DGbom6xxnlnQyQ",
+                     client_secret="Op1U2SJFWNDOkuB9_t6FmlFgP8ID8w",
+                     password="Admirable-Soil-3458",
                      user_agent="posted by u/Current_Guarantee650",
                      username="Current_Guarantee650")
  
