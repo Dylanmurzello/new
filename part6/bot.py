@@ -9,11 +9,11 @@ from sys import exit
 
 
 
-reddit = praw.Reddit(client_id="dcgLhcyktxRAuQ",
-                     client_secret="LDUddhtr_g_z6-m08D6icp0TCBhFyg",
-                     password="Alive-Database-9353",
-                     user_agent="posted by u/Alive-Database-9353",
-                     username="Alive-Database-9353")
+reddit = praw.Reddit(client_id="3Xh6qGrVIS5gAg",
+                     client_secret="O7ImnhotIgujITa4tJMrXIlrS_l7Ag",
+                     password="Jaded_Replacement_36",
+                     user_agent="posted by u/Jaded_Replacement_36",
+                     username="Jaded_Replacement_36")
  
 result = pyfiglet.figlet_format("Dylan OP") 
 print(result) 
