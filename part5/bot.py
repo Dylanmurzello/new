@@ -12,8 +12,8 @@ from sys import exit
 reddit = praw.Reddit(client_id="DGbom6xxnlnQyQ",
                      client_secret="Op1U2SJFWNDOkuB9_t6FmlFgP8ID8w",
                      password="Admirable-Soil-3458",
-                     user_agent="posted by u/Current_Guarantee650",
-                     username="Current_Guarantee650")
+                     user_agent="posted by u/Admirable-Soil-3458",
+                     username="Admirable-Soil-3458")
  
 result = pyfiglet.figlet_format("Dylan OP") 
 print(result) 
