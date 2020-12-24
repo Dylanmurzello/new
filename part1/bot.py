@@ -48,6 +48,10 @@ comment = input ("Enter your comment 1: ")
 comment2 = input ("Enter your comment 2: ") 
 comment3 = input ("Enter your comment 3: ")
 
+name = input ("Enter your comment 1: ")
+name2 = input ("Enter your comment 2: ") 
+name3 = input ("Enter your comment 3: ")
+
 print("Reading reddit list")
 subredit_list = open("data.txt", "r")
 subreddits = subredit_list.read().split(',')
@@ -57,45 +61,53 @@ for subreddit in subreddits:
     print(subreddit)
     reddit.validate_on_submit = True
     submission = reddit.subreddit(subreddit).submit(title,url=url)
-    com = "###{}".format(comment)
+    com = "###[meg@ pak]({}), {}".format(comment, name)
     time.sleep(10)
     submission.reply(com)
     print ("done")
   except Exception as err:
     print("Exception for subreddit {}, {}".format(subreddit, err))
-  t= random.randint(480,500)
+  t= random.randint(600,700)
   seconds = "Sleeping for {} seconds before proceeding".format(t)
   print(seconds)
   time.sleep(t)
+
+  print("Reading reddit list")
+  subredit_list = open("data2.txt", "r")
+  subreddits = subredit_list.read().split(',')
 
 for subreddit in subreddits:
   try:
     print(subreddit)
     reddit.validate_on_submit = True
     submission = reddit.subreddit(subreddit).submit(title2,url=url2)
-    com = "###{}".format(comment2)
+    com = "###[pack mega]({}), {}".format(comment2, name2)
     time.sleep(10)
     submission.reply(com)
     print ("done")
   except Exception as err:
     print("Exception for subreddit {}, {}".format(subreddit, err))
-  t= random.randint(450,500)
+  t= random.randint(650,700)
   seconds = "Sleeping for {} seconds before proceeding".format(t)
   print(seconds)
   time.sleep(t)
+
+  print("Reading reddit list")
+  subredit_list = open("data3.txt", "r")
+  subreddits = subredit_list.read().split(',')
 
 for subreddit in subreddits:
   try:
     print(subreddit)
     reddit.validate_on_submit = True
     submission = reddit.subreddit(subreddit).submit(title3,url=url3)
-    com = "###{}".format(comment3)
+    com = "###[mega pack]({}), {}".format(comment3, name3)
     time.sleep(10)
     submission.reply(com)
     print ("done")
   except Exception as err:
     print("Exception for subreddit {}, {}".format(subreddit, err))
-  t= random.randint(480,520)
+  t= random.randint(600,720)
   seconds = "Sleeping for {} seconds before proceeding".format(t)
   print(seconds)
   time.sleep(t)
