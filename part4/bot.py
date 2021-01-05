@@ -9,11 +9,11 @@ from sys import exit
 
 
 
-reddit = praw.Reddit(client_id="N_dXynqjpjdXgg",
-                     client_secret="Fn8E9DEelnjXYQQcv1bbS2qLd48WiA",
-                     password="PapayaOk1558",
-                     user_agent="posted by u/PapayaOk1558",
-                     username="PapayaOk1558")
+reddit = praw.Reddit(client_id="St-JdiL2jU1WJQ",
+                     client_secret="BkArjRywIHzbIvnQfeo-sOS4sZlp8Q",
+                     password="Wide_Tank4525",
+                     user_agent="posted by u/Wide_Tank4525",
+                     username="Wide_Tank4525")
  
 result = pyfiglet.figlet_format("Dylan OP") 
 print(result) 
@@ -61,7 +61,7 @@ for subreddit in subreddits:
     print(subreddit)
     reddit.validate_on_submit = True
     submission = reddit.subreddit(subreddit).submit(title,url=url)
-    com = "###[meg@ pak]({}), {}".format(comment, name)
+    com = "###({}), {}".format(comment, name)
     time.sleep(10)
     submission.reply(com)
     print ("done")
@@ -81,7 +81,7 @@ for subreddit in subreddits:
     print(subreddit)
     reddit.validate_on_submit = True
     submission = reddit.subreddit(subreddit).submit(title2,url=url2)
-    com = "###[pack mega]({}), {}".format(comment2, name2)
+    com = "###({}), {}".format(comment2, name2)
     time.sleep(10)
     submission.reply(com)
     print ("done")
@@ -101,7 +101,7 @@ for subreddit in subreddits:
     print(subreddit)
     reddit.validate_on_submit = True
     submission = reddit.subreddit(subreddit).submit(title3,url=url3)
-    com = "###[mega pack]({}), {}".format(comment3, name3)
+    com = "###({}), {}".format(comment3, name3)
     time.sleep(10)
     submission.reply(com)
     print ("done")
