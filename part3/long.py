@@ -343,7 +343,7 @@ for subreddit in subreddits:
   print(seconds)
   time.sleep(t)
   
- print("Reading reddit list")
+print("Reading reddit list")
 subredit_list = open("data.txt", "r")
 subreddits = subredit_list.read().split(',')
 
@@ -543,7 +543,7 @@ for subreddit in subreddits:
   print(seconds)
   time.sleep(t)
   
- print("Reading reddit list")
+print("Reading reddit list")
 subredit_list = open("data.txt", "r")
 subreddits = subredit_list.read().split(',')
 
