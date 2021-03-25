@@ -6,14 +6,6 @@ import requests
 import sys
 from sys import exit
 
-
-
-
-reddit = praw.Reddit(client_id="WnYYSHjTjuRC3A",
-                     client_secret="aVoIaSlEfyGvjbYaULY1MtOiRB3XZA",
-                     password="That-Ad3121",
-                     user_agent="posted by u/That-Ad3121",
-                     username="That-Ad3121")
  
 result = pyfiglet.figlet_format("Dylan OP") 
 print(result) 
