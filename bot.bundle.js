@@ -474,7 +474,7 @@ var Board = function (_Canvas) {
   _createClass(Board, [{
     key: 'update',
     value: function update() {
-      var canvas = App.elements.board[0];
+      var canvas = App.elements.board[1];
       this.canvas = canvas.getContext('2d').getImageData(0, 0, canvas.width, canvas.height);
     }
   }]);
